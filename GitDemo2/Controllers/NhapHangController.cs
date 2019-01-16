@@ -13,5 +13,13 @@ namespace GitDemo2.Controllers
         {
             return View();
         }
+        public ActionResult AddProduct()
+        {
+            return View();
+        }
+        public ActionResult DeleteProduct()
+        {
+            return View();
+        }
     }
 }

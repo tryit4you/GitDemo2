@@ -10,6 +10,7 @@ namespace GitDemo2.Controllers
     {
         public ActionResult Index()
         {
+            var message = '0';
             var i = 0;
             return View();
         }
