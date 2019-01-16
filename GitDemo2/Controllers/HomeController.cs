@@ -8,13 +8,6 @@ namespace GitDemo2.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Index()
-        {
-            var message = '0';
-            var i = 0;
-            return View();
-        }
-
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
