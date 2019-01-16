@@ -13,5 +13,12 @@ namespace GitDemo2.Controllers
         {
             return View();
         }
+
+        //GET: Hien thi hang chua thanh toan
+        public ActionResult HangChuaThanhToan()
+        {
+            ViewBag.Message = "Hàng Chưa Thanh Toán";
+            return View();
+        }
     }
 }
