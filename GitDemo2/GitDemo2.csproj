@@ -172,6 +172,8 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Product\AllProduct.cshtml" />
     <Content Include="Views\NhapHang\Index.cshtml" />
+    <Content Include="Views\NhapHang\DeleteProduct.cshtml" />
+    <Content Include="Views\NhapHang\AddProduct.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
